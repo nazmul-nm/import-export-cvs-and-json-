@@ -1,4 +1,4 @@
-# import-export-cvs-and-json-
+# import-export-csv-and-json
 Import as CSV and JSON file from MySQL using CodeIgniter. 
 Export from CSV & JSON file and update in to database using Codeigniter
 ## Import Json
