@@ -16,7 +16,7 @@ Export from CVS & JSON file and update in to database using Codeigniter
 					);
 				}
 				$this->db->update_batch('language_data',$data, 'id'); 
-				$this->session->set_flashdata('success', !empty(lang('success_text'))?lang('success_text'):'Save Change Successful');
+				$this->session->set_flashdata('success', 'Save Change Successful');
 			}else{
 				$this->session->set_flashdata('error', lang('error_text'));
 			}
